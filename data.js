@@ -7,9 +7,9 @@ const Spec = {
       "descriptions": {
         "app_description": "This is an application used to monitor the performance of a mongo database",
         "app_logo": "https://res.cloudinary.com/dprw6oeba/image/upload/v1739895224/database-floating-squares_78370-6689_lfv5hm.avif",
-        "app_name": "MongoDB Monitor",
-        "app_url": "",
-        "background_color": "#ffffff"
+        "app_name": "MongoDB Performance Monitor",
+        "app_url": "https://mongodb-monitor.onrender.com",
+        "background_color": "#f4fc03"
       },
       "integration_category": "Performance Monitoring",
       "integration_type": "interval",
@@ -44,7 +44,7 @@ const Spec = {
           "default": "* * * * *"
         },
       ],
-      "tick_url": "URL for subscribing to Telex's clock.",
+      "tick_url": "https://mongodb-monitor.onrender.com/tick",
     }
 }
 
