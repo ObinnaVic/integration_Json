@@ -7,7 +7,7 @@ app.use(express.json());
 
 app.get("/integration.json", (req, res) => {
     return res.status(200).json({
-        data: Spec,
+        data: Spec.data,
         "status": "accepted"
     })
 })
