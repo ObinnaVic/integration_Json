@@ -29,7 +29,7 @@ const Spec = {
           "type": "text",
           "required": true,
           "default": "",
-        }
+        },
         {
           "label": "interval",
           "type": "text",
