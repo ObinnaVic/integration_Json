@@ -1,8 +1,8 @@
 const Spec = {
     "data": {
       "date": {
-        "created_at": "2025-02-18",
-        "updated_at": "2025-02-18"
+        "created_at": "2025-02-20",
+        "updated_at": "2025-02-20"
       },
       "descriptions": {
         "app_description": "This is an application used to monitor the performance of a mongo database",
@@ -13,7 +13,7 @@ const Spec = {
       },
       "integration_category": "Performance Monitoring",
       "integration_type": "interval",
-      "is_active": true,
+      "is_active": false,
       "output": [],
       "key_features": [
         "Handles authomatic query call to your db and sends performance data",
