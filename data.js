@@ -41,10 +41,10 @@ const Spec = {
           "default": "* /15 * * * *"
         },
         {
-          "label": "Mongodb url",
+          "label": "Input Mongodb url",
           "type": "text",
           "required": true,
-          "default": "mongodb+srv://nkirevictor77:TuAzCAaUDmdp19df@cluster01.tyjeg.mongodb.net/?retryWrites=true&w=majority&appName=Cluster01",
+          "default": "",
         }
       ],
       "tick_url": "https://mongodb-monitor.onrender.com/tick",
