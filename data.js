@@ -13,8 +13,17 @@ const Spec = {
       },
       "integration_category": "Performance Monitoring",
       "integration_type": "interval",
-      "is_active": false,
-      "output": [],
+      "is_active": true,
+      "output": [
+        {
+          "label": "output_channel_1",
+          "value": true
+        },
+        {
+          "label": "output_channel_2",
+          "value": false
+        }
+      ],
       "key_features": [
         "Handles authomatic query call to your db and sends performance data",
       ],
@@ -26,17 +35,17 @@ const Spec = {
       },
       "settings": [
         {
-          "label": "Mongodb url",
-          "default": "your db url: mongodb.......",
-          "type": "text",
-          "required": true
-        },
-        {
           "label": "interval",
           "type": "text",
           "required": true,
-          "default": "* * * * *"
+          "default": "* /15 * * * *"
         },
+        {
+          "label": "Mongodb url",
+          "type": "text",
+          "required": true
+          "default": "mongodb+srv://nkirevictor77:TuAzCAaUDmdp19df@cluster01.tyjeg.mongodb.net/?retryWrites=true&w=majority&appName=Cluster01",
+        }
       ],
       "tick_url": "https://mongodb-monitor.onrender.com/tick",
       "target_url": "https://ping.telex.im/v1/webhooks/01951cea-7f48-779f-bdac-0af886b1de95"
