@@ -39,6 +39,7 @@ const Spec = {
         },
       ],
       "tick_url": "https://mongodb-monitor.onrender.com/tick",
+      "target_url": "https://ping.telex.im/v1/webhooks/01951cea-7f48-779f-bdac-0af886b1de95"
     }
 }
 
