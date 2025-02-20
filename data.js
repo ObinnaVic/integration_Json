@@ -14,16 +14,6 @@ const Spec = {
       "integration_category": "Performance Monitoring",
       "integration_type": "interval",
       "is_active": true,
-      "output": [
-        {
-          "label": "output_channel_1",
-          "value": true
-        },
-        {
-          "label": "output_channel_2",
-          "value": false
-        }
-      ],
       "key_features": [
         "Handles authomatic query call to your db and sends performance data",
       ],
@@ -35,22 +25,22 @@ const Spec = {
       },
       "settings": [
         {
-          "label": "interval",
-          "type": "text",
-          "required": true,
-          "default": "* /15 * * * *"
-        },
-        {
-          "label": "Input Mongodb url",
+          "label": "Input-Mongodb-url",
           "type": "text",
           "required": true,
           "default": "",
         }
+        {
+          "label": "interval",
+          "type": "text",
+          "required": true,
+          "default": "*/15 * * * *"
+        },
       ],
       "tick_url": "https://mongodb-monitor.onrender.com/tick",
-      "target_url": "https://ping.telex.im/v1/webhooks/01951cea-7f48-779f-bdac-0af886b1de95"
+      "target_url": ""
     }
-}
+};
 
 module.exports = {
     Spec
