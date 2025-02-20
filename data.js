@@ -43,7 +43,7 @@ const Spec = {
         {
           "label": "Mongodb url",
           "type": "text",
-          "required": true
+          "required": true,
           "default": "mongodb+srv://nkirevictor77:TuAzCAaUDmdp19df@cluster01.tyjeg.mongodb.net/?retryWrites=true&w=majority&appName=Cluster01",
         }
       ],
