@@ -32,12 +32,6 @@ const Spec = {
           "required": true
         },
         {
-          "label": "Mongodb url",
-          "default": "your db url: mongodb.......",
-          "type": "text",
-          "required": true
-        },
-        {
           "label": "interval",
           "type": "text",
           "required": true,
