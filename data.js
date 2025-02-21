@@ -1,8 +1,8 @@
 const Spec = {
     "data": {
       "date": {
-        "created_at": "2025-02-20",
-        "updated_at": "2025-02-20"
+        "created_at": "2025-02-21",
+        "updated_at": "2025-02-21"
       },
       "descriptions": {
         "app_description": "This is an application used to monitor the performance of a mongo database",
@@ -16,6 +16,8 @@ const Spec = {
       "is_active": true,
       "key_features": [
         "Handles authomatic query call to your db and sends performance data",
+        "Check performance of your db in realtime",
+        "Get notified on database current performance",
       ],
       "permissions": {
         "monitoring_user": {
@@ -31,7 +33,7 @@ const Spec = {
           "default": "* * * * *"
         },
         {
-          "label": "Input-Mongodb-url",
+          "label": "mongodb-url",
           "type": "text",
           "required": true,
           "default": "",
