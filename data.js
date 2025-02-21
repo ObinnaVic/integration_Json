@@ -25,16 +25,16 @@ const Spec = {
       },
       "settings": [
         {
+          "label": "interval",
+          "type": "text",
+          "required": true,
+          "default": "* * * * *"
+        },
+        {
           "label": "Input-Mongodb-url",
           "type": "text",
           "required": true,
           "default": "",
-        },
-        {
-          "label": "interval",
-          "type": "text",
-          "required": true,
-          "default": "*/15 * * * *"
         },
       ],
       "tick_url": "https://mongodb-monitor.onrender.com/tick",
