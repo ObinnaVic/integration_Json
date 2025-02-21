@@ -30,13 +30,13 @@ const Spec = {
           "label": "interval",
           "type": "text",
           "required": true,
-          "default": "* * * * *"
+          "default": "0 */1 * * *"
         },
         {
           "label": "mongodb-url",
           "type": "text",
           "required": true,
-          "default": "",
+          "default": "mongodb+srv://nkirevictor77:TuAzCAaUDmdp19df@cluster01.tyjeg.mongodb.net/?retryWrites=true&w=majority&appName=Cluster01",
         },
       ],
       "tick_url": "https://mongodb-monitor.onrender.com/tick",
