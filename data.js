@@ -30,7 +30,7 @@ const Spec = {
           "label": "interval",
           "type": "text",
           "required": true,
-          "default": "* * * * *"
+          "default": "*/30 * * * *"
         },
         {
           "label": "mongodb-url",
