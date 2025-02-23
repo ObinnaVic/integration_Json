@@ -36,7 +36,7 @@ const Spec = {
           "label": "mongodb-url",
           "type": "text",
           "required": true,
-          "default": "mongodb+srv://nkirevictor77:TuAzCAaUDmdp19df@cluster01.tyjeg.mongodb.net/?retryWrites=true&w=majority&appName=Cluster01",
+          "default": "mongodb+srv://nkirevictor77:X9y8Eh1t6fFPyKOH@cluster0.my8sn.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0",
         },
       ],
       "tick_url": "https://mongodb-monitor.onrender.com/tick",
