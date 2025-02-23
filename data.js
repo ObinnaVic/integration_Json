@@ -8,7 +8,7 @@ const Spec = {
         "app_description": "This is an application used to monitor the performance of a mongo database",
         "app_logo": "https://res.cloudinary.com/dprw6oeba/image/upload/v1739895224/database-floating-squares_78370-6689_lfv5hm.avif",
         "app_name": "MongoDB Performance Monitor",
-        "app_url": "https://mongodb-monitor.onrender.com",
+        "app_url": "https://mongodb-performance-monitor.onrender.com",
         "background_color": "#ffffff"
       },
       "integration_category": "Performance Monitoring",
@@ -39,7 +39,7 @@ const Spec = {
           "default": "mongodb+srv://victornkire:vic08133232378@cluster0.xqm7v.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0",
         },
       ],
-      "tick_url": "https://mongodb-monitor.onrender.com/tick",
+      "tick_url": "https://mongodb-performance-monitor.onrender.com/tick",
       "target_url": ""
     }
 };
