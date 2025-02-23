@@ -30,13 +30,13 @@ const Spec = {
           "label": "interval",
           "type": "text",
           "required": true,
-          "default": "0 */1 * * *"
+          "default": "* * * * *"
         },
         {
           "label": "mongodb-url",
           "type": "text",
           "required": true,
-          "default": "mongodb+srv://victornkire:vic08133232378@cluster0.xqm7v.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0",
+          "default": "",
         },
       ],
       "tick_url": "https://mongodb-performance-monitor.onrender.com/tick",
